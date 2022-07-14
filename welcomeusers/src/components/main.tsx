@@ -105,6 +105,11 @@ class Main extends React.Component{
           <div id='content1Div'>{this.state.content1}</div>
           <div>{this.state.showUsers ? <ShowUsersArr arraySend={this.state.array}/> : ''}</div>
           <div>{this.state.showTask ? <ShowTask arraySend={this.state.array}/> : ''}</div>
+          <br></br><br></br>
+          <div id='divAppWeb'>Zapraszam również do odwiedzenia mojej aplikacji webowej: <br></br> 
+          <b>http://kranmar.pl/</b> <br></br>
+          Pozdrawiam, Patrycja
+          </div>
         </div>
       </div>
     );
