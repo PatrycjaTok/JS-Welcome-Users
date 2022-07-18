@@ -1,10 +1,15 @@
 DESCRIPTION:
 
 Enter user data.
+
 • For people over 15,000 salaries returns: Hello, CEO! 
+
 • For people with a salary below 5,000 reutrns: <username>, get ready for a raise! 
+
 • For people with an even year of birth reutrns: Hello, <username>! This year you are turning <calculated_annual_age> years! 
+
 • For people with an odd year of birth reutrns: <username>, you are fired!
+  
 Salary conditions are checked before the conditions for the year of birth.
 
 # Getting Started with Create React App
